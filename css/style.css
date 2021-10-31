@@ -185,9 +185,9 @@ nav { display: none; }
         display: grid;
         grid-template-columns: 1fr 200px;
         grid-template-areas: 
-            "title img"
-            "subtitle img"
-            "text img";
+            "title"
+            "subtitle"
+            "text";
         grid-column-gap: 2em;
     }
 
