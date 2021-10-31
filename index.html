@@ -3,12 +3,15 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Archana's portfolio website</title>
+        <title>Archana's Personal Website</title>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
-        <!-- Update these with new fonts-->
+        
+        <!-- Update these with your own fonts -->
         <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+        
         <link rel="stylesheet" href="css/style.css">
+
     </head>
     <body>
         <header>
@@ -19,8 +22,8 @@
                 <ul class="nav__list">
                     <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
                     <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
-					<li class="nav__item"><a href="#experiences" class="nav__link">Experiences</a></li>
-					<li class="nav__item"><a href="#resume" class="nav__link">Resume</a></li>
+                    <li class="nav__item"><a href="#experience" class="nav__link">Experience</a></li>
+                    <!-- <li class="nav__item"><a href="#resume" class="nav__link">Resume</a></li> -->
                 </ul>
             </nav>
         </header>
@@ -31,33 +34,49 @@
                 Hi, I am <strong>Archana Pradeep</strong>
             </h1>
             <p class="section__subtitle section__subtitle--intro">Software Engineer</p>
-            <img src="images/archana_smaller_profile.PNG" alt="" class="intro__img">
+            <img src="images/archana_smaller_profile.PNG" alt="a picture of Jane Smith smiling" class="intro__img">
         </section>
-		
-		<!-- About me -->
+                
+        <!-- About me -->
         <section class="about-me" id="about">
-            <h2 class="section__title section__title--about">About me</h2>
-            <p class="section__subtitle section__subtitle--about">Software engineer based out of Singapore</p>
-            
-            <div class="about-me__body">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-            </div>
-         </section>
-		
-		<!-- Experiences-->
-		<section class="experiences" id="experiences">
-			<h2 class="section__title">Experiences</h2>
-			<!-- figure out how to do the timeline thing-->
+           <h2 class="section__title section__title--about">Who I am</h2>
+           <p class="section__subtitle section__subtitle--about">Designer & developer based out of NYC</p>
+           
+           <div class="about-me__body">
+               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+           </div>
+           
+           <img src="img/dev-jane-02.jpg" alt="Jane leaning against a bus" class="about-me__img">
         </section>
         
-        <!-- Footer--> 
-        <footer>
+        <!-- Experience -->
+        <section class="experience" id="experience">
+            <h2 class="section__title section__title--work">Experience</h2>
+            <p class="section__subtitle section__subtitle--work">Jobs, Internships and Personal projects</p>
+        </section>
+        
+        
+        <!-- Footer -->
+        <footer class="footer">
+            <!-- replace with your own email address -->
             <a href="mailto:archieprad@gmail.com" class="footer__link">archieprad@gmail.com</a>
             <ul class="social-list">
-                <li class="social-list__item"><a class="social-list__link" href="https://github.com/archthegit"></a></li>
-                <li class="social-list__item"><a class="social-list__link" href="https://sg.linkedin.com/in/archana-pradeep-869710138"></a></li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://github.com/archthegit">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://twitter.com">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                </li>
             </ul>
         </footer>
+        
+        
+        <script src="js/index.js"></script>
+        
     </body>
 </html>
