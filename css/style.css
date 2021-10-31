@@ -38,8 +38,8 @@
 /* General styles */
 
 body {
-    background: var(--clr-dark);
-    color: var(--clr-light);
+    background: var(--clr-light);
+    color: var(--clr-dark);
     margin: 0;
     font-family: var(--ff-primary);
     font-size: var(--fs-body);
@@ -185,17 +185,17 @@ nav { display: none; }
         display: grid;
         grid-template-columns: 1fr 200px;
         grid-template-areas: 
-            "title"
-            "subtitle"
-            "text";
+            "title img"
+            "subtitle img"
+            "text img";
         grid-column-gap: 2em;
     }
-
+    
     .section__title--about {
         grid-area: title;
     }
-
-    .section__subtitle--about{
+    
+    .section__subtitle--about {
         grid-column: 1 / -1;
         grid-row: 2;
         position: relative;
