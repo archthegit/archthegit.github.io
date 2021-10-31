@@ -38,8 +38,8 @@
 /* General styles */
 
 body {
-    background: var(--clr-light);
-    color: var(--clr-dark);
+    background: var(--clr-dark);
+    color: var(--clr-light);
     margin: 0;
     font-family: var(--ff-primary);
     font-size: var(--fs-body);
@@ -196,7 +196,7 @@ nav { display: none; }
     }
 
     .section__subtitle--about{
-        grid-column: 1/ -1;
+        grid-column: 1 / -1;
         grid-row: 2;
         position: relative;
         left: -1em;
