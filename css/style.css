@@ -142,10 +142,6 @@ header {
     padding: 1em;
 }
 
-.logo {
-    max-width: 100px;
-}
-
 .nav {
     position: fixed;
     background: var(--clr-light);
@@ -296,21 +292,6 @@ header {
     max-width: 1000px;
     margin: 0 auto;
 }
-
-/* @media (min-width: 600px) {
-    .about-me {
-        display: grid;
-        grid-template-columns: 1fr 200px;
-        grid-template-areas: 
-            "title img"
-            "text img";
-        grid-column-gap: 2em;
-    }
-    
-    .section__title--about {
-        grid-area: title;
-    }
-} */
 
 /* Experience */
 
