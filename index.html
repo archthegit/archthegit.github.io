@@ -1,79 +1,158 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Archana's Personal Website</title>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
-        
-        <!-- Update these with your own fonts -->
-        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
-        
-        <link rel="stylesheet" href="css/style.css">
+  <head>
 
-    </head>
-    <body>
-        <header>
-            <button class="nav-toggle" aria-label="toggle navigation">
-                <span class="hamburger"></span>
-            </button>
-            <nav class="nav">
-                <ul class="nav__list">
-                    <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
-                    <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
-                    <li class="nav__item"><a href="#experience" class="nav__link">Experience</a></li>
-                    <!-- <li class="nav__item"><a href="#resume" class="nav__link">Resume</a></li> -->
-                </ul>
-            </nav>
-        </header>
-        
-        <!-- Introduction -->
-        <section class="intro" id="home">
-            <h1 class="section__title section__title--intro">
-                Hi, I am <strong>Archana Pradeep</strong>
-            </h1>
-            <p class="section__subtitle section__subtitle--intro"><a href="assets/archana_resume.pdf">View Resume</a></p>
-            <img src="images/archana_smaller_profile.PNG" alt="" class="intro__img">
-        </section>
-                
-        <!-- About me -->
-        <section class="about-me" id="about">
-           <h2 class="section__title section__title--about">About Me</h2>
-           <p class="section__subtitle section__subtitle--work">A short introduction about who I am</p>
-           <div class="about-me__body">
-               <p>I am a software engineer at <a href="https://www.grab.com/sg/">Grab</a> with the Digital Banking team. In 2020, I graduated with a Bachelor's in Computer Engineering from the <a href="https://nus.edu.sg/">National University of Singapore</a></p>
-               <p>I spent most of my life in Malaysia and Singapore. I spend a lot of my time trying to learn new languages (non-programming), reading or building things</p>
-           </div>
-        </section>
-        
-        <!-- Experience -->
-        <section class="experience" id="experience">
-            <h2 class="section__title section__title--work">Experience</h2>
-            <p class="section__subtitle section__subtitle--work">Jobs, Internships and Personal projects</p>
-        </section>
-        
-        
-        <!-- Footer -->
-        <footer class="footer">
-            <!-- replace with your own email address -->
-            <a href="mailto:archieprad@gmail.com" class="footer__link">archieprad@gmail.com</a>
-            <ul class="social-list">
-                <li class="social-list__item">
-                    <a class="social-list__link" href="https://github.com/archthegit">
-                        <i class="fab fa-github"></i>
-                    </a>
-                </li>
-                <li class="social-list__item">
-                    <a class="social-list__link" href="https://sg.linkedin.com/in/archana-pradeep-869710138">
-                        <i class="fab fa-linkedin"></i>
-                    </a>
-                </li>
-            </ul>
-        </footer>
-        
-        
-        <script src="js/index.js"></script>
-        
-    </body>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Research Assistant, NUS">
+    <meta name="author" content="Archana Pradeep">
+    <meta name="theme-color" content="#222222">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="images/nicons/icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/nicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/nicons/favicon-16x16.png">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      
+    <title>Archana Pradeep</title>
+  </head>
+  <body>
+    <!-- <h1>Hello, world!</h1> -->
+    <div class="container pt-5 allstuffp">
+        <div class="row pt-5 allstuff">
+            <div class="col-md-4 pt-5">
+                <div class="fixed-posi">
+                <p class="name">Archana Pradeep</p>
+                <img src="images/subject_2.png" class="profilepic pt-3 pb-2"><br><br>
+                <div class=""><a style="padding-right:15px;" class="menulink" target="_blank" href="assets/archana_resume.pdf"><i class="fa fa-file" style='font-size:17px'></i></a>CV</div>
+                <div class=""><a style="padding-right:12px;" class="menulink" target="_blank" href="mailto:archieprad@gmail.com"><i class="fa fa-envelope" style='font-size:17px'></i></a>Email</div>
+                <div class=""><a style="padding-right:12px;" class="menulink" target="_blank" href="https://github.com/archthegit"><i class="fab fa-github" style='font-size:17px'></i></a>Github</div>
+                <div class=""><a style="padding-right:15px;" class="menulink" target="_blank" href="https://www.linkedin.com/in/archana-pradeep-869710138"><i class="fab fa-linkedin" style='font-size:17px'></i></a>Linkedin</div>
+                </div>
+            </div>
+            <div class="col-md-8 pt-5 about">
+                 I am a Research Assistant at NUS, where I work with <a class="in-text"
+                     href="https://www.comp.nus.edu.sg/cs/people/rogerz/" target="_blank">Dr Roger Zimmermann</a> and
+                 <a class="in-text" href="https://www.comp.nus.edu.sg/cs/people/ooiwt/"
+                     target="_blank">Dr Ooi Wei Tsang</a> on Indexing and Retrieval of Multi-Viewpoint Surveillance Videos Using Visual Scene
+                     Graph. I am interested in working on computer vision models for low power devices. Previously I worked at <a class="in-text" href="https://www.grab.com/sg/"
+                     target="_blank">Grab</a> as one of the first engineers on their digital banking team now called  <a class="in-text" href="https://www.techinasia.com/grab-singtel-launches-digibank-gxs-bank"
+                     target="_blank">GXS Bank</a> as a software engineer<br> <br>
+
+
+                 I graduated with a BEng in Computer Engineering from <a class="in-text"
+                     href="https://www.nus.edu.sg/" target="_blank">National University of Singapore (NUS)</a> in 2020. For more
+                 details, check my <a class="in-text" href="assets/archana_resume.pdf" target="_blank">CV</a> or shoot me an email
+                 <a class="in-text" href="mailto:archanapradeep@u.nus.edu">here</a>. <br> <br>
+
+                 I also spend time volunteering with <a class="in-text" href="https://codeinthecommunity.com/" target="_blank">Code In The Community</a> where I assist in teaching Python to kids from disadvantaged backgrounds.  I helped bootcamp students from <a class="in-text" href="https://generalassemb.ly/" target="_blank">General Assembly</a> prepare for coding interviews too. <br><br>
+
+                 In my free time, I enjoy practicing Taekwondo, learning new human languages and reading fiction!
+
+                 <!-- <p class="header pt-5">Experiences</p>
+                 <div class="py-2">
+                    <img class="img-fluid instilogo p-3" src="images/nicons/nus.png">
+                 <p class="paper my-2 pl-2">
+                     <span class="papertitle">Research Assistant, NUS<br>
+                     Jul 2022 - Present
+                     <ul>
+                        <li>Replaced Faster RCNN with YOLOV3 object detection model to improve tracker speed on Jetson Nano by almost 7x </li>
+                        <li>Removed dependency on MMDetection library to prevent dependecy issues when running tracker on Jetson Orin</li>
+                        <li>Implemented REST APIs to communicate from Nano/Orin to main server and send tracker results to perform Visual Relationship Detection</li>
+                     </ul>
+                    </span>
+                 </p>
+                 </div>
+                 <div class="py-2">
+                    <img class="img-fluid instilogo p-3" src="images/nicons/grab.png">
+                    <p class="paper my-2 pl-2">
+                        <span class="papertitle">Senior Software Engineer, Grab<br>
+                        Aug 2020 - Jul 2022
+                        <ul>
+                            <li>Backend software engineer on the Digibank team </li>
+                            <li>Spot award winner for exceptional contribution to onboarding and wider Digibank team </li>
+                            <li>Wrote and own microservices for onboarding orchestration, verification of users and management of user applications in Golang
+                            <li>Worked on a bootstrap framework to be the backbone of all microservices with logging, stats middleware, http routing, graceful shutdown etc. </li>
+                            <li>Designed and implemented document upload flow for KYC using Kafka, AV scanning, AWS S3 and in-house RTC. </li>
+                            <li>Designed and implemented Customer Identification number generation for newly onboarded customers using RDS, Elasticache (Redis) </li>
+                            <li>Designed and implemented tracing middleware that services can plug and play to improve team’s service observability. </li>
+                            <li>Designed and Implemented the error response structure common to all services across the bank </li>
+                        </ul>
+                    </span>
+                 </p>
+                 </div>
+                 <div class="py-2">
+                    <img class="img-fluid instilogo p-3" src="images/nicons/shopee.png">
+                    <p class="paper my-2 pl-2">
+                        <span class="papertitle">Data Engineer, Shopee<br>
+                        Jun 2020 - Aug 2020
+                        <ul>
+                           <li>Worked on the internal version of Apache Airflow </li>
+                           <li>Used Docker and Python to improve efficiency of task schedulers by reducing the work done by each scheduler to 50%</li>
+                           <li>Enabled non-admins to access pools information on the UI</li>
+                        </ul>
+                    </span>
+                 </p>   
+                </div>
+                 <div class="py-2">
+                    <img class="img-fluid instilogo p-3" src="images/nicons/visenze.png">
+                    <p class="paper my-2 pl-2">
+                        <span class="papertitle">Software Engineer Intern, Visenze<br>
+                        Dec 2019 - Jan 2020
+                        <ul>
+                            <li>Intern on the Data Platform Team</li>
+                            <li>Worked with gRPC and protobuf to build REST-like APIs. Incorporated spring-boot and made the gRPC useable as an sdk (Python and Java)</li>
+                        </ul>
+                    </span>
+                 </p>
+                 </div>
+                 <div class="py-2">
+                    <img class="img-fluid instilogo p-3" src="images/nicons/amz.png">
+                        <p class="paper my-2 pl-2">
+                            <span class="papertitle">Software Development Engineer Intern, Amazon<br>
+                            May 2019 - Aug 2019
+                            <ul>
+                                <li>Intern on the AWS Bill Generation Team (Line Item Data Service)</li>
+                                <li>Implemented auditor to check correctness of data in LIDS pipeline using Java, Node.js</li>
+                                <li>Coded Lambdas to trigger step functions, merge bills, create manifests, query bills using filters. Wrote step functions integrated with AWS SQS, SNS</li>
+                                <li>All code was pushed to production</li>
+                            </ul>
+                        </span>
+                 </p>
+                 </div>
+                 <div class="py-2">
+                    
+                    <p class="paper my-2 pl-2">
+                        <span class="papertitle"><img class="img-fluid instilogo p-3" src="images/nicons/autodesk.png"> Software Development Intern, Autodesk<br>
+                        May 2018 - Oct 2018</span>
+                        <ul>
+                            <li>Developed a chaos engineering tool using Java, Shell script and AWS resources such as DynamoDB, EC2, IAM, ELB etc </li>
+                            <li>Implemented a reporting feature so that developer can see what scenarios run on which instances</li>
+                            <li>Used multi-threading to schedule chaos monkeys that run a combination of chaos scenarios in parallel</li>
+                            <li>Created new chaos scenarios - deleting dynamoDB tables, deregistering instances from load balancer</li>
+                            <li>Automated the whole configuration process saving 20 minutes on each run</li>
+                            <li>Inner sourced within Autodesk and used by 6 teams on staging and dev applications to improve resiliency</li>
+                        </ul>
+                 </p>   
+                </div>
+
+            </div>
+            
+        </div>
+    </div> -->
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="assets/style.js"></script>
+</body>
+  <style>
+  </style>
 </html>
